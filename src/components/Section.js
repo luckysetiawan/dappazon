@@ -4,11 +4,11 @@ import { ethers } from 'ethers'
 import Rating from './Rating'
 
 const Section = ({ title, items, togglePop }) => {
-    return (
-        <div className='cards__section'>
+  return (
+    <div className='cards__section'>
 
-        </div>
-    );
+    </div>
+  );
 }
 
 export default Section;

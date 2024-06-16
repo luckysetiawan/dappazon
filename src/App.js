@@ -14,8 +14,27 @@ import config from './config.json'
 
 function App() {
 
+  const [provider, setProvider] = useState(null);
+  const [dappazon, setDappazon] = useState(null);
+
+  const [account, setAccount] = useState(null);
+
+  const loadBlockchainData = async () => {
+    const provider = new ethers.BrowserProvider(window.ethereum);
+    setProvider(provider);
+    const network = await provider.getNetwork();
+
+    const dappazon = new ethers.Contract(config[network.chainId].dappazon.address, Dappazon, provider);
+    setDappazon(dappazon);
+  }
+
+  useEffect(() => {
+    loadBlockchainData();
+  }, []);
+
   return (
     <div>
+      <Navigation account={account} setAccount={setAccount} />
 
       <h2>Welcome to Dappazon</h2>
 
