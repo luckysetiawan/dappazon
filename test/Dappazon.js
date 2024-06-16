@@ -9,9 +9,9 @@ const ID = 1;
 const NAME = 'Shoes';
 const CATEGORY = 'Clothing';
 const IMAGE = 'https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg';
-const COST = tokens(1);
-const RATING = 4;
-const STOCK = 5;
+const COST = tokens(0.25);
+const RATING = 5;
+const STOCK = 3;
 
 describe('Dappazon', () => {
   let deployer, buyer;
