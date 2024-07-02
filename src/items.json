@@ -5,7 +5,7 @@
       "name": "Camera",
       "category": "electronics",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
-      "price": "1",
+      "price": "0.88",
       "rating": 4,
       "stock": 10
     },
@@ -14,7 +14,7 @@
       "name": "Drone",
       "category": "electronics",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
-      "price": "2",
+      "price": "0.74",
       "rating": 5,
       "stock": 6
     },
@@ -32,7 +32,7 @@
       "name": "Shoes",
       "category": "clothing",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
-      "price": "0.25",
+      "price": "0.12",
       "rating": 5,
       "stock": 3
     },
@@ -41,7 +41,7 @@
       "name": "Sunglasses",
       "category": "clothing",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
-      "price": "0.10",
+      "price": "0.07",
       "rating": 4,
       "stock": 12
     },
@@ -52,7 +52,7 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
       "price": "1.25",
       "rating": 4,
-      "stock": 0
+      "stock": 1
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "name": "Train Set",
       "category": "toys",
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
-      "price": "0.20",
+      "price": "0.10",
       "rating": 4,
       "stock": 0
     },
